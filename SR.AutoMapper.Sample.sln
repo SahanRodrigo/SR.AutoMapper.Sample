@@ -5,13 +5,17 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2CEBA6DA-1476-4F41-AE3F-982CF9FB9500}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SR.AutoMapper.Sample.UI", "src\SR.AutoMapper.Sample.UI\SR.AutoMapper.Sample.UI.csproj", "{D0F69401-638D-4251-B210-1DB92F4F17DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SR.AutoMapper.Sample.UI", "src\SR.AutoMapper.Sample.UI\SR.AutoMapper.Sample.UI.csproj", "{D0F69401-638D-4251-B210-1DB92F4F17DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SR.AutoMapper.Sample.Domain", "src\SR.AutoMapper.Sample.Domain\SR.AutoMapper.Sample.Domain.csproj", "{B409BCE8-CFFC-4BF4-96B1-A47DE3D0DE2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SR.AutoMapper.Sample.Domain", "src\SR.AutoMapper.Sample.Domain\SR.AutoMapper.Sample.Domain.csproj", "{B409BCE8-CFFC-4BF4-96B1-A47DE3D0DE2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SR.AutoMapper.Sample.Services", "src\SR.AutoMapper.Sample.Services\SR.AutoMapper.Sample.Services.csproj", "{D571FA67-B10A-4AEA-88C4-A72C9A85C196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SR.AutoMapper.Sample.Services", "src\SR.AutoMapper.Sample.Services\SR.AutoMapper.Sample.Services.csproj", "{D571FA67-B10A-4AEA-88C4-A72C9A85C196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SR.AutoMapper.Sample.Core", "src\SR.AutoMapper.Sample.Core\SR.AutoMapper.Sample.Core.csproj", "{37858DEB-D7DF-402C-9EA7-BF5111D6FE01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SR.AutoMapper.Sample.Core", "src\SR.AutoMapper.Sample.Core\SR.AutoMapper.Sample.Core.csproj", "{37858DEB-D7DF-402C-9EA7-BF5111D6FE01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E7C138EE-9194-4AE4-816A-E44DB1EADB3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SR.AutoMapper.Sample.UnitTests", "tests\SR.AutoMapper.Sample.UnitTests\SR.AutoMapper.Sample.UnitTests.csproj", "{6A88C64A-7E51-4308-BBA9-19BC75E3312B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{37858DEB-D7DF-402C-9EA7-BF5111D6FE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37858DEB-D7DF-402C-9EA7-BF5111D6FE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37858DEB-D7DF-402C-9EA7-BF5111D6FE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A88C64A-7E51-4308-BBA9-19BC75E3312B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A88C64A-7E51-4308-BBA9-19BC75E3312B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A88C64A-7E51-4308-BBA9-19BC75E3312B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A88C64A-7E51-4308-BBA9-19BC75E3312B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{B409BCE8-CFFC-4BF4-96B1-A47DE3D0DE2C} = {2CEBA6DA-1476-4F41-AE3F-982CF9FB9500}
 		{D571FA67-B10A-4AEA-88C4-A72C9A85C196} = {2CEBA6DA-1476-4F41-AE3F-982CF9FB9500}
 		{37858DEB-D7DF-402C-9EA7-BF5111D6FE01} = {2CEBA6DA-1476-4F41-AE3F-982CF9FB9500}
+		{6A88C64A-7E51-4308-BBA9-19BC75E3312B} = {E7C138EE-9194-4AE4-816A-E44DB1EADB3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {086C08E4-C5AC-4796-9BAE-FC93BD93D1A4}
